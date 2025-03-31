@@ -1,3 +1,31 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://links.cloudartisan.com"
+languageCode = "en-us"
+title = "Cloud Artisan Links"
+theme = "lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "David Taylor"
+  headline = ""
+  image = "profile.png"
+  links = [
+    { link = { href = "#", text = "", icon = "", class = "cloud-projects-comment" } },
+    { link = { href = "https://cloudartisan.com", text = "Cloud Artisan Site", icon = "link" } },
+    { github = "https://github.com/cloudartisan" },
+    { linkedin = "https://linkedin.com/in/cloudartisan" },
+    { link = { href = "https://palettekit.com", text = "Palette Kit", icon = "link" } },
+    { link = { href = "https://shrnk.ai", text = "Shrnk.ai", icon = "link" } },
+    
+    { link = { href = "#", text = "", icon = "", class = "martial-arts-comment" } },
+    { link = { href = "https://bluemountainstaekwondo.com", text = "Blue Mountains Taekwondo", icon = "link" } },
+    { facebook = "https://www.facebook.com/BlueMountainsTaekwondo" },
+    { instagram = "https://www.instagram.com/bluemountainstkd" },
+    { youtube = "https://www.youtube.com/@BlueMountainsTKD" },
+    { link = { href = "https://runmydojo.com", text = "RunMyDojo", icon = "link" } },
+    { link = { href = "https://oldschooltkd.com", text = "Old School TKD", icon = "link" } }
+  ]
+
+[markup.goldmark.renderer]
+  unsafe = true
