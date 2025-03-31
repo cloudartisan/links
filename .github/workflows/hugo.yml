@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ main ]
 
+# Required for allowing GitHub Actions to push to your repository
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
