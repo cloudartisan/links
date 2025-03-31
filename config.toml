@@ -1,0 +1,12 @@
+baseURL = "https://links.cloudartisan.com"
+languageCode = "en-us"
+title = "Cloud Artisan Links"
+theme = "lynx"
+
+[params]
+  author = "David Taylor"
+  description = "Links to Cloud Artisan's online presence"
+  links = [
+    { github = "https://github.com/cloudartisan" },
+    { linkedin = "https://linkedin.com/in/davidltaylor" }
+  ] 
