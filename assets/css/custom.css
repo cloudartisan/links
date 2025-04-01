@@ -4,22 +4,3 @@
 .h-36.w-36 img {
   transform: scale(0.9); /* Scale the image slightly to hide white border */
 }
-
-/* Add comment separators for link groups */
-.cloud-projects-comment::before {
-  content: "Cloud Projects";
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  margin: 1.5rem 0 0.5rem;
-  font-size: 1.2rem;
-}
-
-.martial-arts-comment::before {
-  content: "Martial Arts";
-  display: block;
-  text-align: center;
-  font-weight: bold;
-  margin: 1.5rem 0 0.5rem;
-  font-size: 1.2rem;
-}

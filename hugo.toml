@@ -11,20 +11,23 @@ disableKinds = ["taxonomy", "term"]
   headline = ""
   image = "profile.png"
   links = [
-    { link = { href = "#", text = "", icon = "", class = "cloud-projects-comment" } },
     { link = { href = "https://cloudartisan.com", text = "Cloud Artisan", icon = "link" } },
     { github = "https://github.com/cloudartisan" },
     { linkedin = "https://linkedin.com/in/cloudartisan" },
     { link = { href = "https://palettekit.com", text = "Palette Kit", icon = "link" } },
     { link = { href = "https://shrnk.ai", text = "Shrnk.ai", icon = "link" } },
-    
-    { link = { href = "#", text = "", icon = "", class = "martial-arts-comment" } },
     { link = { href = "https://bluemountainstaekwondo.com", text = "Blue Mountains Taekwondo", icon = "link" } },
-    { facebook = "https://www.facebook.com/BlueMountainsTaekwondo" },
-    { instagram = "https://www.instagram.com/bluemountainstkd" },
-    { youtube = "https://www.youtube.com/@BlueMountainsTKD" },
+    { facebook = { href = "https://www.facebook.com/BlueMountainsTaekwondo", text = "Blue Mountains Taekwondo Facebook" } },
+    { instagram = { href = "https://www.instagram.com/bluemountainstkd", text = "Blue Mountains Taekwondo Instagram" } },
+    { youtube = { href = "https://www.youtube.com/@BlueMountainsTKD", text = "Blue Mountains Taekwondo YouTube" } },
     { link = { href = "https://runmydojo.com", text = "RunMyDojo", icon = "link" } },
-    { link = { href = "https://oldschooltkd.com", text = "Old School TKD", icon = "link" } }
+    { facebook = { href = "https://facebook.com/RunMyDojo", text = "RunMyDojo Facebook" } },
+    { instagram = { href = "https://www.instagram.com/RunMyDojo", text = "RunMyDojo Instagram" } },
+    { youtube = { href = "https://www.youtube.com/@RunMyDojo", text = "RunMyDojo YouTube" } },
+    { link = { href = "https://oldschooltkd.com", text = "Old School TKD", icon = "link" } },
+    { facebook = { href = "https://www.facebook.com/OldSchoolTKD", text = "Old School TKD Facebook" } },
+    { instagram = { href = "https://www.instagram.com/OldSchoolTKD", text = "Old School TKD Instagram" } },
+    { youtube = { href = "https://www.youtube.com/@OldSchoolTKD", text = "Old School TKD YouTube" } }
   ]
 
 [markup.goldmark.renderer]
