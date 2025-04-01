@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "term"]
   image = "profile.png"
   links = [
     { link = { href = "#", text = "", icon = "", class = "cloud-projects-comment" } },
-    { link = { href = "https://cloudartisan.com", text = "Cloud Artisan Site", icon = "link" } },
+    { link = { href = "https://cloudartisan.com", text = "Cloud Artisan", icon = "link" } },
     { github = "https://github.com/cloudartisan" },
     { linkedin = "https://linkedin.com/in/cloudartisan" },
     { link = { href = "https://palettekit.com", text = "Palette Kit", icon = "link" } },
